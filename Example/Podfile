@@ -1,0 +1,11 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'AMKDispatcher_Example' do
+  pod 'AMKDispatcher', :path => '../'
+
+  target 'AMKDispatcher_Tests' do
+    inherit! :search_paths
+  end
+end
